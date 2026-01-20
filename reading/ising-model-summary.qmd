@@ -69,7 +69,7 @@ The **Ising model** is a mathematical model of ferromagnetism in statistical mec
 
 ## Critical Exponents and Scaling
 
-### Critical Exponents
+### Critical Scaling Laws
 
 Near the critical point, physical quantities diverge or vanish as power laws in $t = (T - T_c)/T_c$:
 
@@ -82,18 +82,18 @@ Near the critical point, physical quantities diverge or vanish as power laws in 
 | $\nu$ | Correlation length | $\xi \sim \|t\|^{-\nu}$ | Spatial correlations |
 | $\eta$ | Correlation function | $G(r) \sim r^{-(d-2+\eta)}$ at $T_c$ | Decay of correlations |
 
-### Scaling Relations
+### Relations Between Exponents
 
-Critical exponents satisfy universal scaling relations:
+Critical exponents are not independent
 
-| Relation | Formula | Name |
-|----------|---------|------|
-| **Rushbrooke** | $\alpha + 2\beta + \gamma = 2$ | Thermodynamic relation |
-| **Widom** | $\gamma = \beta(\delta - 1)$ | Connects order parameter and response |
-| **Fisher** | $\gamma = \nu(2 - \eta)$ | Relates susceptibility to correlations |
-| **Hyperscaling** | $d\nu = 2 - \alpha$ | Valid for $d < 4$ |
+| Relation | Equation |
+|----------|----------|
+| **Rushbrooke** | $\alpha + 2\beta + \gamma = 2$ |
+| **Widom** | $\gamma = \beta(\delta - 1)$ |
+| **Fisher** | $\gamma = \nu(2 - \eta)$ |
+| **Hyperscaling** | $d\nu = 2 - \alpha$ (valid for $d < 4$) |
 
-**Note:** Only 2 exponents are independent; others follow from scaling relations.
+**Note:** Only 2 exponents are independent; others follow from these relations.
 
 ### Universal Values by Dimension
 

@@ -155,8 +155,8 @@ window.Quarto = {
   <li><a href="#thermodynamic-quantities-and-response-functions" id="toc-thermodynamic-quantities-and-response-functions" class="nav-link" data-scroll-target="#thermodynamic-quantities-and-response-functions">Thermodynamic Quantities and Response Functions</a></li>
   <li><a href="#critical-exponents-and-scaling" id="toc-critical-exponents-and-scaling" class="nav-link" data-scroll-target="#critical-exponents-and-scaling">Critical Exponents and Scaling</a>
   <ul class="collapse">
-  <li><a href="#critical-exponents" id="toc-critical-exponents" class="nav-link" data-scroll-target="#critical-exponents">Critical Exponents</a></li>
-  <li><a href="#scaling-relations" id="toc-scaling-relations" class="nav-link" data-scroll-target="#scaling-relations">Scaling Relations</a></li>
+  <li><a href="#critical-scaling-laws" id="toc-critical-scaling-laws" class="nav-link" data-scroll-target="#critical-scaling-laws">Critical Scaling Laws</a></li>
+  <li><a href="#relations-between-exponents" id="toc-relations-between-exponents" class="nav-link" data-scroll-target="#relations-between-exponents">Relations Between Exponents</a></li>
   <li><a href="#universal-values-by-dimension" id="toc-universal-values-by-dimension" class="nav-link" data-scroll-target="#universal-values-by-dimension">Universal Values by Dimension</a></li>
   </ul></li>
   <li><a href="#exact-results-onsager-solution-2d" id="toc-exact-results-onsager-solution-2d" class="nav-link" data-scroll-target="#exact-results-onsager-solution-2d">Exact Results (Onsager Solution, 2D)</a></li>
@@ -380,8 +380,8 @@ window.Quarto = {
 </section>
 <section id="critical-exponents-and-scaling" class="level2">
 <h2 class="anchored" data-anchor-id="critical-exponents-and-scaling">Critical Exponents and Scaling</h2>
-<section id="critical-exponents" class="level3">
-<h3 class="anchored" data-anchor-id="critical-exponents">Critical Exponents</h3>
+<section id="critical-scaling-laws" class="level3">
+<h3 class="anchored" data-anchor-id="critical-scaling-laws">Critical Scaling Laws</h3>
 <p>Near the critical point, physical quantities diverge or vanish as power laws in <span class="math inline">\(t = (T - T_c)/T_c\)</span>:</p>
 <table class="caption-top table">
 <colgroup>
@@ -438,46 +438,36 @@ window.Quarto = {
 </tbody>
 </table>
 </section>
-<section id="scaling-relations" class="level3">
-<h3 class="anchored" data-anchor-id="scaling-relations">Scaling Relations</h3>
-<p>Critical exponents satisfy universal scaling relations:</p>
+<section id="relations-between-exponents" class="level3">
+<h3 class="anchored" data-anchor-id="relations-between-exponents">Relations Between Exponents</h3>
+<p>Critical exponents are not independent</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 40%">
-<col style="width: 36%">
-<col style="width: 24%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Relation</th>
-<th>Formula</th>
-<th>Name</th>
+<th>Equation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Rushbrooke</strong></td>
 <td><span class="math inline">\(\alpha + 2\beta + \gamma = 2\)</span></td>
-<td>Thermodynamic relation</td>
 </tr>
 <tr class="even">
 <td><strong>Widom</strong></td>
 <td><span class="math inline">\(\gamma = \beta(\delta - 1)\)</span></td>
-<td>Connects order parameter and response</td>
 </tr>
 <tr class="odd">
 <td><strong>Fisher</strong></td>
 <td><span class="math inline">\(\gamma = \nu(2 - \eta)\)</span></td>
-<td>Relates susceptibility to correlations</td>
 </tr>
 <tr class="even">
 <td><strong>Hyperscaling</strong></td>
-<td><span class="math inline">\(d\nu = 2 - \alpha\)</span></td>
-<td>Valid for <span class="math inline">\(d &lt; 4\)</span></td>
+<td><span class="math inline">\(d\nu = 2 - \alpha\)</span> (valid for <span class="math inline">\(d &lt; 4\)</span>)</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note:</strong> Only 2 exponents are independent; others follow from scaling relations.</p>
+<p><strong>Note:</strong> Only 2 exponents are independent; others follow from these relations.</p>
 </section>
 <section id="universal-values-by-dimension" class="level3">
 <h3 class="anchored" data-anchor-id="universal-values-by-dimension">Universal Values by Dimension</h3>
